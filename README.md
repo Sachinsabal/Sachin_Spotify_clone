@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sachin_sabal</h1>
 <h3 align="center">A passionate Data Analyst from India</h3>
 
-<img align="right" alt="coding" width="400" scr="https://miro.medium.com/max/1400/1*g__jiesLRIfCRefVG69Pfw.gif">
+
 <p align="left"> <img src="https://miro.medium.com/max/552/1*oeK4EpsQx8S2h5D-J-x-BQ.gif" /> </p>
 
 - 📫 How to reach me **sachinsabal2001@gmail.com**
