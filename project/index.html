@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin's spotify music listener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container-fluid">
+        <ul class="navbar">
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li style="font-size: small;"><a href="home.html">Home</a></li>
+            <li style="font-size: small;"><a href="About.html">About</a></li>
+            <li style="font-size: small;"><a href="library,html">Library</a></li>
+        <div class="flex">
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
+        </div>
+          </ul>
+    </div>
+    </nav>
+    <div class="box">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <a href="https://open.spotify.com/artist/2RlWC7XKizSOsZ8F3uGi59"target="_main">
+                <img src="covers/th.jpeg" class="d-block w-100" width="245px" height="125px"alt="...">
+            </a>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="https://open.spotify.com/track/1UWacd8x8tPPwmrPB1MoBI"target="_main">
+                <img src="covers/tht2.jpg" class="d-block w-100" width="245px" height="120px"alt="...">
+            </a>
+              </div>
+              <div class="carousel-item">
+                  <a href="https://open.spotify.com/album/4mYK10Bg5Vk8fRTNelZMEs"target="_main">
+                  <img src="covers/th3.jpeg" class="d-block w-100" width="245px"height="120px"alt="...">
+                </a>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+          </div>
+    </div>
+    
+    <div class="container">
+
+        <div class="songlist">
+        <h1>Best of NCS - No copy right sound</h1> 
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">3:20</sapn><i id="0" class="fas songItemplay fa-play-circle" style="margin: 0px 7px;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">3:17</sapn><i id="1" class="fas songItemplay fa-play-circle"style="margin: 0px 7px;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">4:29</sapn><i id="2" class="fas songItemplay fa-play-circle"style="margin: 0px 7px;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">3:14</sapn><i id="3" class="fas songItemplay fa-play-circle"style="margin: 0px 7px;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">3:15</sapn><i id="4" class="fas songItemplay fa-play-circle" style="margin: 0px 7px;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">3:17</sapn><i id="5" class="fas songItemplay fa-play-circle"style="margin: 0px 7px;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">3:09</sapn><i id="6" class="fas songItemplay fa-play-circle"style="margin: 0px 7px;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Let Me Count Down</span>
+                <span class="songlistplay"><sapn class="timestamp">4:26</sapn><i id="7" class="fas songItemplay fa-play-circle"style="margin: 0px 7px;"></i></span>
+            </div>
+           
+        </div>
+        </div>
+    <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">   
+        <div class="icons">
+            <!-- fontawesome -->
+            <i class="fas fa-1x fa-step-backward" id="previous"></i>   
+            <i class="fas fa-1x fa-play-circle" id="masterPlay"></i>   
+            <i class="fas fa-1x fa-step-forward" id="next"></i>   
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id="gif" width="55px" alt=""> <span id="masterSongName">Heart Attack-Alan Walker</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
